@@ -1,0 +1,13 @@
+train: C:/Users/ukrit/OneDrive/เดสก์ท็อป/Cashier/train/images
+val: C:/Users/ukrit/OneDrive/เดสก์ท็อป/Cashier/valid/images
+test: ../test/images
+
+nc: 21
+names: ['bento_red', 'coke_red', 'crystal', 'fanta_green', 'karamujo', 'lay_blue', 'mama', 'paprika', 'party_purple', 'party_red', 'pepsi_black', 'pepsi_blue', 'pokki', 'singha_soda', 'singha_yellow', 'snack_jack', 'tao', 'taokaenoi', 'taro_yellow', 'thai_denmark', 'twisco']
+
+roboflow:
+  workspace: cashierless
+  project: cashierless-dataset
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cashierless/cashierless-dataset/dataset/4

@@ -1,0 +1,14 @@
+# Ignore virtual environment
+cashierless_env/
+
+# Ignore dataset (if it's large)
+cashierless-dataset/
+
+# Ignore YOLOv9 model weights (if you don't want to upload them)
+yolov9s.pt
+yolov9e.pt
+yolov8n.pt
+yolov9-e-converted.pt
+
+# Ignore training results
+runs/
